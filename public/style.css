@@ -1,0 +1,66 @@
+:root {
+    --text: #000;
+    --purple: #DD94FA;
+    --coral: #FA93B4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text);
+
+    margin-left: 10em;
+    margin-top: 10em;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+}
+
+#dot {
+    vertical-align: top;
+    height: 24px;
+    width: 24px;
+
+    fill: var(--purple);
+}
+
+.title {
+    font-size: 32px;
+}
+
+.inner-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-size: 16px;
+
+    p { margin: 0px; }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+    padding-top: 24px;
+
+    a {
+        color: var(--text);
+        width: fit-content;
+    }
+}
