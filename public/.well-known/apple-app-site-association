@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "FVC3VQ23BA.com.radiofrance.apprf.carplay.debug"
+        ],
+        "components": [
+          {
+            "/": "/playlists/share/*"
+          }
+        ]
+      }
+    ]
+  }
+}
