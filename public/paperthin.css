@@ -51,7 +51,7 @@ body {
 
 .links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 8px;
 
   padding-top: 24px;
